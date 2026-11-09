@@ -40,7 +40,8 @@
 - You can find the provider in the TERRAFORM REGISTRY, where many providers are available, or, if necessary, you can also create your own provider. Terraform takes an immutable approach to infrastructure, reducing the complexity when managing, upgrading or modifying it.
 
 
+## whow track the infrastructure?
+- Terraform generates a plan and prompts you for your approval before modifying your infrastructure. It also keeps track of your real infrastructure in a state file, which acts as a source of truth for your environment. Terraform uses the state file to determine the changes to make to your infrastructure so that it will match your configuration.
 
-
----
-- [To be continue](https://developer.hashicorp.com/terraform/intro#track-your-infrastructure)
+## How terraform automate changes?
+- Declarative configuration files, 
