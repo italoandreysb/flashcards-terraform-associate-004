@@ -56,3 +56,5 @@
 
 
 ## Infrastructure as Code in a Private or Public Cloud
+
+https://www.hashicorp.com/pt/blog/infrastructure-as-code-in-a-private-or-public-cloud?product_intent=terraform
