@@ -1,4 +1,4 @@
-# Terraform Associate 004 Flashcards
+# Terraform Associate 004 Flashcards.
 
 A collection of flashcards created to help prepare for the **HashiCorp Certified: Terraform Associate (004)** exam.
 
