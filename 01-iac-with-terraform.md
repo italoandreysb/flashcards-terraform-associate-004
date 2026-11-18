@@ -33,6 +33,7 @@
 - **Plan**: Terraform creates an execution plan describing the infrastructure it will create, update, or destroy based on the existing infrastructure and your configuration.
 - **Apply**: On approval, Terraform performs the proposed operations in the correct order, respecting any resource dependencies. For example, if you update the properties of a VPC and change the number of virtual machines in that VPC, Terraform will recreate the VPC before scaling the virtual machines.
 
+
 ## 1b - Why terraform?
 - Terraform lets you define and manage your infrastructure in a consistent, repeatable way with easy configuration, reusability and versioning.
 
@@ -44,4 +45,14 @@
 - Terraform generates a plan and prompts you for your approval before modifying your infrastructure. It also keeps track of your real infrastructure in a state file, which acts as a source of truth for your environment. Terraform uses the state file to determine the changes to make to your infrastructure so that it will match your configuration.
 
 ### How terraform automate changes?
-- Declarative configuration files, 
+- Using declarative configuration files to describe the FINAL STATE of your infrastructure.
+
+### How terraform Standardize your infrastructure?
+- Supporting reusable configuration componets called MODULES, saving time and encouraging best practices.
+
+### How terraform can help you to keep a colaboration infrastructure?
+
+- Since your configuration is written in a file, you can commit it to a Version Control System (VCS) and use HCP Terraform to efficiently manage Terraform workflows across teams.
+
+
+## Infrastructure as Code in a Private or Public Cloud
